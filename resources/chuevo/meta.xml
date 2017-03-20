@@ -1,0 +1,8 @@
+<meta>
+	<info description="Misc. Scripts" version="1.0" author="Chuevo" type="script"/>
+	<script src="s_test.lua" type="server"/>
+	<script src="c_test.lua" type="client"/>
+	<script src="s_delsupercar.lua" type="server"/>
+	<script src="s_strobes.lua" type="server"/>
+	<script src="c_strobes.lua" type="client"/>
+</meta>

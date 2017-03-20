@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (csrsfence02_lvs) (1)" interior="0" alpha="255" doublesided="false" model="8674" scale="1" dimension="0" posX="-496.10001" posY="-562.90002" posZ="26.5" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (csrsfence02_lvs) (2)" interior="0" alpha="255" doublesided="false" model="8674" scale="1" dimension="0" posX="-484.39999" posY="-562.90002" posZ="26.5" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (csrsfence02_lvs) (3)" interior="0" alpha="255" doublesided="false" model="8674" scale="1" dimension="0" posX="-482.39999" posY="-562.90002" posZ="26.5" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (WS_floodlight) (1)" interior="0" alpha="255" doublesided="false" model="3864" scale="1" dimension="0" posX="-505.39999" posY="-538.59998" posZ="29.6" rotX="0" rotY="0" rotZ="130"></object>
+    <object id="object (WS_floodlight) (2)" interior="0" alpha="255" doublesided="false" model="3864" scale="1" dimension="0" posX="-483.70001" posY="-556.29999" posZ="28.3" rotX="0" rotY="0" rotZ="42"></object>
+    <object id="object (refcondens1) (1)" interior="0" alpha="255" doublesided="false" model="3259" scale="1" dimension="0" posX="-501.39999" posY="-515.90002" posZ="24.5" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (cxrf_oiltank) (1)" interior="0" alpha="255" doublesided="false" model="3287" scale="1" dimension="0" posX="-502.5" posY="-532.90002" posZ="29.3" rotX="0" rotY="0" rotZ="0"></object>
+</map>

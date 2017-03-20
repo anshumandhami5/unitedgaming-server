@@ -1,0 +1,23 @@
+<map edf:definitions="editor_main">
+	<object id="object(cxf_payspray_)(1)" model="3292" posX="-2323.1999512" posY="2364.0000000" posZ="4.0000000" rotX="0.0000000" rotY="0.0000000" rotZ="55.0000000" dimension="0" interior="0" />
+	<object id="object(smallprosjmt_las)(1)" model="3628" posX="-2322.3999023" posY="2366.6000977" posZ="0.9500000" rotX="0.0000000" rotY="0.0000000" rotZ="55.0000000" dimension="0" interior="0" />
+	<object id="object(sprayshopint_sfse)(1)" model="11315" posX="-2322.6999512" posY="2369.3000488" posZ="7.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="55.0000000" dimension="0" interior="0" />
+
+	<!-- GAS STATION -->
+    <object id="object (des_garagew) (1)" doublesided="false" model="11504" interior="0" dimension="0" posX="-2625.1000976563" posY="2259.3000488281" posZ="7.1999998092651" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (desn_tscanopy) (2)" doublesided="false" model="11547" interior="0" dimension="0" posX="-2606.8000488281" posY="2259.6999511719" posZ="10" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (vegspetrolpump) (1)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2598.5500488281" posY="2258.5" posZ="8.6000003814697" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (3)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2598.5498046875" posY="2260.8000488281" posZ="8.6000003814697" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (4)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2604.0698242188" posY="2260.8000488281" posZ="8.6000003814697" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (5)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2604.0698242188" posY="2258.5" posZ="8.6000003814697" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (6)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2609.5" posY="2258.5" posZ="8.6000003814697" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (7)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2609.5" posY="2260.8000488281" posZ="8.6000003814697" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (8)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2615" posY="2260.8000488281" posZ="8.6000003814697" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (9)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2615" posY="2258.5" posZ="8.6000003814697" rotX="0" rotY="0" rotZ="0"></object>	
+
+    <removeWorldObject id="removeWorldObject (dump1) (1)" radius="3.5940818786621" interior="0" model="1227" lodModel="0" posX="-2503.75" posY="2363.39648" posZ="4.64668" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (dump1) (2)" radius="3.5940818786621" interior="0" model="1227" lodModel="0" posX="-2503.33789" posY="2366.89063" posZ="4.70548" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_BOX_PILE_3) (1)" radius="3.6364884376526" interior="0" model="1440" lodModel="0" posX="-2506.78516" posY="2369.31567" posZ="4.34024" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_BOX_PILE_3) (2)" radius="3.6364884376526" interior="0" model="1440" lodModel="0" posX="-2503.25757" posY="2342.64063" posZ="4.31994" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (dump1) (3)" radius="3.5940818786621" interior="0" model="1227" lodModel="0" posX="-2526.82617" posY="2353.78101" posZ="5.33914" rotX="0" rotY="0" rotZ="0"></removeWorldObject>	
+</map>

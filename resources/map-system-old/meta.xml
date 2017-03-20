@@ -1,0 +1,34 @@
+<meta>
+	<script src="s_removeObjects.lua" type="server"/>
+	<!--<script src="San Fierro/s_SFIA_mapEditorScriptingExtension.lua" type="server"/>-->
+	
+	<map src="San Fierro/SFPD-DB.map" dimension="0"></map>
+	<map src="San Fierro/LSTR.map" dimension="0"></map>
+	<map src="San Fierro/Bus Stops.map" dimension="0"></map>
+	<map src="San Fierro/Pools.map" dimension="0"></map>
+	<map src="San Fierro/SFIA_Airport-Default.map" dimension="0"></map>
+	<map src="San Fierro/Downtown.map" dimension="0"></map>
+	<map src="San Fierro/Doherty.map" dimension="0"></map>
+	<map src="San Fierro/Financial.map" dimension="0"></map>
+	<map src="San Fierro/Santa Flora.map" dimension="0"></map>
+	<map src="San Fierro/Easter Basin.map" dimension="0"></map>
+	<map src="San Fierro/Bayside.map" dimension="0"></map>
+	<!--<map src="San Fierro/Club.map" dimension="0"></map>-->
+	<map src="San Fierro/Drug Factory.map" dimension="0"></map>
+	<map src="San Fierro/Hyper.map" dimension="0"></map>
+	<map src="San Fierro/Ocean Flats.map" dimension="0"></map>
+	<map src="San Fierro/Paradiso.map" dimension="0"></map>
+	<map src="San Fierro/Esplanade East.map" dimension="0"></map>
+	<map src="San Fierro/SFHR.map" dimension="0"></map>
+	<map src="San Fierro/hospital.map" dimension="9"></map>
+	<!--<map src="San Fierro/Maxime-Kart-Park.map" dimension="0"></map>-->
+	<map src="San Fierro/Police-Academy.map" dimension="0"></map>
+	<!--<map src="San Fierro/drivethu-bank.map" dimension="0"></map>-->
+	<map src="San Fierro/glassWalls.map" dimension="0"></map>
+	<map src="San Fierro/HotelCalifornia.map" dimension="0"></map>
+	<map src="San Fierro/SMTR.map" dimension="0"></map>
+	<map src="San Fierro/swat.map" dimension="0"></map>
+	<map src="San Fierro/garcia.map" dimension="0"></map>
+	<!--<map src="San Fierro/soundgroup.map" dimension="0"></map> -->
+	<!--<map src="San Fierro/beachHouse.map" dimension="0"></map>-->
+</meta>

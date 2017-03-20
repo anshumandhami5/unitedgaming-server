@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <object id="object (Gen_doorEXT15) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="1536" scale="1" dimension="0" posX="-1675.90002" posY="1007.40002" posZ="6.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (burg_lkupdoor) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="5302" scale="1" dimension="0" posX="-1672" posY="1007.39941" posZ="9.2" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (phonebooth1) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="1216" scale="1" dimension="0" posX="-1676.59998" posY="1007.5" posZ="7.6" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (CJ_US_FLAG) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="2614" scale="1" dimension="0" posX="-1671.89941" posY="1007.39941" posZ="12.5" rotX="0" rotY="0" rotZ="182"></object>
+    <object id="object (sfsefirehseflag) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="11245" scale="1" dimension="0" posX="-1614.90002" posY="1001.79999" posZ="10.7" rotX="0" rotY="0" rotZ="43.995"></object>
+    <object id="object (helipad01) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="3934" scale="1" dimension="0" posX="-1682.40002" posY="1037.30005" posZ="55.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shamheliprt04) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="6976" scale="1" dimension="0" posX="-1696.30005" posY="1044.69995" posZ="47.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_cam) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="2921" scale="1" dimension="0" posX="-1668.80005" posY="1007.29999" posZ="10.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_cam) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="2921" scale="1" dimension="0" posX="-1638.30005" posY="1087.80005" posZ="13" rotX="0" rotY="0" rotZ="22"></object>
+    <object id="object (carspaces3_sfw) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="9697" scale="1" dimension="0" posX="-1665.19995" posY="1033.69995" posZ="7" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (POLICE_NB_car) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="2737" scale="1" dimension="0" posX="-1676.90002" posY="1027.59998" posZ="8.4" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Gen_doorINT05) (1)" interior="0" alpha="255" doublesided="false" model="1499" scale="1" dimension="0" posX="-1682.09998" posY="1036.40002" posZ="44.3" rotX="0" rotY="0" rotZ="270"></object>
+</map>

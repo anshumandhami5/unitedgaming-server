@@ -1,0 +1,32 @@
+<map edf:definitions="editor_main">
+    <object id="object (CJ_WS_DOOR) (1)" doublesided="false" model="1566" interior="0" dimension="0" posX="-1750.8994140625" posY="869.099609375" posZ="25.60000038147" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_WS_DOOR) (2)" doublesided="false" model="1566" interior="0" dimension="0" posX="-1747.7998046875" posY="869.099609375" posZ="25.60000038147" rotX="0" rotY="0" rotZ="179.49462890625"></object>
+    <object id="object (noparkingsign1) (1)" doublesided="false" model="1233" interior="0" dimension="0" posX="-1729.4000244141" posY="858.40002441406" posZ="25.39999961853" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (noparkingsign1) (2)" doublesided="false" model="1233" interior="0" dimension="0" posX="-1778.9000244141" posY="858.20001220703" posZ="25.39999961853" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (posters) (1)" doublesided="false" model="11289" interior="0" dimension="0" posX="-1736.3000488281" posY="859.90002441406" posZ="25.89999961853" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (posters) (2)" doublesided="false" model="11289" interior="0" dimension="0" posX="-1771.0999755859" posY="859.90002441406" posZ="25.799999237061" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_FOLDCHAIR) (1)" doublesided="false" model="1810" interior="0" dimension="0" posX="-1752.8000488281" posY="885.09997558594" posZ="294.89999389648" rotX="0" rotY="0" rotZ="314"></object>
+    <object id="object (CJ_FOLDCHAIR) (2)" doublesided="false" model="1810" interior="0" dimension="0" posX="-1754.3000488281" posY="885.40002441406" posZ="294.89999389648" rotX="0" rotY="0" rotZ="45.994750976563"></object>
+    <object id="object (LM_stripTable) (1)" doublesided="false" model="2725" interior="0" dimension="0" posX="-1753.7998046875" posY="885.8994140625" posZ="295.29998779297" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgElkup) (1)" doublesided="false" model="8947" interior="0" dimension="0" posX="-1768.599609375" posY="888.19921875" posZ="27.10000038147" rotX="0" rotY="0" rotZ="269.98901367188"></object>
+    <object id="object (vgElkup) (1)" doublesided="false" model="8947" interior="0" dimension="0" posX="-1768.599609375" posY="888.19921875" posZ="21.10000038147" rotX="0" rotY="0" rotZ="269.98901367188"></object>
+    <object id="object (roofstuff15) (1)" doublesided="false" model="1696" interior="0" dimension="0" posX="-1783.3000488281" posY="887.58129882813" posZ="23.14999961853" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (roofstuff15) (4)" doublesided="false" model="1696" interior="0" dimension="0" posX="-1783.2998046875" posY="889.45220947266" posZ="23.14999961853" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (vgElkup) (1)" doublesided="false" model="8947" interior="0" dimension="0" posX="-1763.6999511719" posY="887.5" posZ="26.39999961853" rotX="0" rotY="0" rotZ="359.98901367188"></object>
+    <object id="object (vgElkup) (1)" doublesided="false" model="8947" interior="0" dimension="0" posX="-1763.6999511719" posY="881.40002441406" posZ="26.39999961853" rotX="0" rotY="0" rotZ="359.98352050781"></object>
+    <object id="object (cjgaragedoor) (4)" doublesided="false" model="17951" interior="0" dimension="0" posX="-1771.0999755859" posY="888.29998779297" posZ="25.89999961853" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (nt_securecam1_01) (1)" doublesided="false" model="1616" interior="0" dimension="0" posX="-1780.9000244141" posY="881.90002441406" posZ="29.89999961853" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (posters) (3)" doublesided="false" model="11289" interior="0" dimension="0" posX="-1736.1999511719" posY="908.90002441406" posZ="25.799999237061" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (posters) (4)" doublesided="false" model="11289" interior="0" dimension="0" posX="-1771.0999755859" posY="909" posZ="25.799999237061" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+    <object id="object (parkbench1) (1)" doublesided="false" model="1280" interior="0" dimension="0" posX="-1757.9000244141" posY="860.90002441406" posZ="24.299999237061" rotX="0" rotY="0" rotZ="90.5"></object>
+    <object id="object (parkbench1) (2)" doublesided="false" model="1280" interior="0" dimension="0" posX="-1766.9000244141" posY="861" posZ="24.299999237061" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (parkbench1) (3)" doublesided="false" model="1280" interior="0" dimension="0" posX="-1740.5999755859" posY="860.90002441406" posZ="24.299999237061" rotX="0" rotY="0" rotZ="90.5"></object>
+    <object id="object (tramstop_SF) (1)" doublesided="false" model="1375" interior="0" dimension="0" posX="-1762.9000244141" posY="858.09997558594" posZ="25.5" rotX="0" rotY="0" rotZ="91"></object>
+    <object id="object (balcony02_lvs) (1)" doublesided="false" model="8576" interior="0" dimension="0" posX="-1743.9000244141" posY="884.29998779297" posZ="203.39999389648" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (balcony02_lvs) (2)" doublesided="false" model="8576" interior="0" dimension="0" posX="-1763.5" posY="884.5" posZ="203.39999389648" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (htlcnpy01_lvs) (1)" doublesided="false" model="3433" interior="0" dimension="0" posX="-1749.3000488281" posY="869.29998779297" posZ="27.799999237061" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (bollardlight) (1)" doublesided="false" model="1215" interior="0" dimension="0" posX="-1752.5" posY="860.90002441406" posZ="24.39999961853" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bollardlight) (2)" doublesided="false" model="1215" interior="0" dimension="0" posX="-1746.0999755859" posY="860.79998779297" posZ="24.39999961853" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (postbox1) (1)" doublesided="false" model="1291" interior="0" dimension="0" posX="-1775.8000488281" posY="860.59997558594" posZ="24.39999961853" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgElkup) (1)" doublesided="false" model="8947" interior="0" dimension="0" posX="-1768.5999755859" posY="888.20001220703" posZ="28.39999961853" rotX="0" rotY="0" rotZ="269.98901367188"></object>
+</map>

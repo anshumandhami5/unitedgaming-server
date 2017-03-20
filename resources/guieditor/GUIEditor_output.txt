@@ -1,0 +1,834 @@
+
+-- Created: 29/07/2012 03:38
+GUIEditor_Window = {}
+
+GUIEditor_Window[1] = guiCreateWindow(1011,323,355,186,"",false)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/07/2012 03:41
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Edit = {}
+
+GUIEditor_Window[1] = guiCreateWindow(562,277,458,329,"Administrator Report",false)
+GUIEditor_Button[1] = guiCreateButton(295,51,138,42,"Submit Report",false,GUIEditor_Window[1])
+GUIEditor_Edit[1] = guiCreateEdit(23,125,411,194,"",false,GUIEditor_Window[1])
+guiEditSetMaxLength(GUIEditor_Edit[1],150)
+GUIEditor_Edit[2] = guiCreateEdit(23,59,168,29,"",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/07/2012 03:41
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Edit = {}
+
+GUIEditor_Window[1] = guiCreateWindow(562,277,458,329,"Administrator Report",false)
+GUIEditor_Button[1] = guiCreateButton(295,51,138,42,"Submit Report",false,GUIEditor_Window[1])
+GUIEditor_Edit[1] = guiCreateEdit(23,125,411,194,"",false,GUIEditor_Window[1])
+guiEditSetMaxLength(GUIEditor_Edit[1],150)
+GUIEditor_Edit[2] = guiCreateEdit(23,59,219,29,"",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 01/08/2012 18:24
+GUIEditor_Edit = {}
+
+GUIEditor_Edit[1] = guiCreateEdit(0.3731,0.35,0.1275,0.0322,"",true)
+
+GUIEditor_Edit[2] = guiCreateEdit(0.5031,0.35,0.1275,0.0322,"",true)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 18/11/2012 18:50
+
+Show_Licenses_GUI = guiCreateWindow(535,247,204,107,"Playername's Licenses",false)
+Label = guiCreateLabel(9,21,185,56,"Driver License:\nBoat License:\nPilot License:\nGun License:",false,Show_Licenses_GUI)
+guiSetFont(Label,"default-bold-small")
+Close_Button = guiCreateButton(9,79,186,19,"Close",false,Show_Licenses_GUI)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 18/11/2012 18:50
+
+Show_Licenses_GUI = guiCreateWindow(535,247,204,107,"Playername's Licenses",false)
+guiSetAlpha(Show_Licenses_GUI,0.30000001192093)
+Label = guiCreateLabel(9,21,185,56,"Driver License:\nBoat License:\nPilot License:\nGun License:",false,Show_Licenses_GUI)
+guiSetFont(Label,"default-bold-small")
+Close_Button = guiCreateButton(9,79,186,19,"Close",false,Show_Licenses_GUI)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 20/11/2012 21: 3
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Edit = {}
+
+GUIEditor_Window[1] = guiCreateWindow(626,399,441,212,"Edit Vehicle Description",false)
+GUIEditor_Edit[1] = guiCreateEdit(10,23,422,26,"",false,GUIEditor_Window[1])
+GUIEditor_Edit[2] = guiCreateEdit(9,51,420,26,"",false,GUIEditor_Window[1])
+GUIEditor_Edit[3] = guiCreateEdit(9,79,400,26,"",false,GUIEditor_Window[1])
+GUIEditor_Edit[4] = guiCreateEdit(9,107,400,26,"",false,GUIEditor_Window[1])
+GUIEditor_Edit[5] = guiCreateEdit(9,135,400,26,"",false,GUIEditor_Window[1])
+GUIEditor_Button[1] = guiCreateButton(250,169,182,34,"Close",false,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(9,166,197,37,"Save",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 15/01/2013 18:48
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Memo = {}
+GUIEditor_Label = {}
+
+GUIEditor_Window[1] = guiCreateWindow(0.6925,0.3477,0.298,0.3958,"Vehicle Check",true)
+guiWindowSetSizable(GUIEditor_Window[1],false)
+GUIEditor_Label[1] = guiCreateLabel(0.0246,0.102,0.1572,0.0592,"Vehicle ID:",true,GUIEditor_Window[1])
+GUIEditor_Label[2] = guiCreateLabel(0.1916,0.1053,0.2801,0.0559,"Vehicle ID goes here",true,GUIEditor_Window[1])
+GUIEditor_Label[3] = guiCreateLabel(0.5086,0.102,0.1941,0.0526,"Vehicle Model:",true,GUIEditor_Window[1])
+GUIEditor_Label[4] = guiCreateLabel(0.7273,0.102,0.2359,0.0526,"This is the model",true,GUIEditor_Window[1])
+GUIEditor_Label[5] = guiCreateLabel(0.0246,0.1776,0.1941,0.0592,"License Plate:",true,GUIEditor_Window[1])
+GUIEditor_Label[6] = guiCreateLabel(0.2285,0.1776,0.2432,0.0592,"NOPLATESLOL",true,GUIEditor_Window[1])
+GUIEditor_Label[7] = guiCreateLabel(0.0246,0.4145,0.1204,0.0559,"Owner:",true,GUIEditor_Window[1])
+GUIEditor_Label[8] = guiCreateLabel(0.1351,0.4145,0.828,0.0559,"Owner_Name (Account Name)",true,GUIEditor_Window[1])
+GUIEditor_Label[9] = guiCreateLabel(0.5086,0.1809,0.0393,0.0559,"X:",true,GUIEditor_Window[1])
+GUIEditor_Label[10] = guiCreateLabel(0.5086,0.2237,0.0393,0.0559,"Y:",true,GUIEditor_Window[1])
+GUIEditor_Label[11] = guiCreateLabel(0.5086,0.2697,0.0393,0.0526,"Z:",true,GUIEditor_Window[1])
+GUIEditor_Label[12] = guiCreateLabel(0.5086,0.3125,0.1548,0.0559,"Dimension:",true,GUIEditor_Window[1])
+GUIEditor_Label[13] = guiCreateLabel(0.5086,0.3553,0.113,0.0592,"Interior:",true,GUIEditor_Window[1])
+GUIEditor_Label[14] = guiCreateLabel(0.5381,0.1842,0.4373,0.0526,"X.XXXXXXXXXXXXXXXXXXXXXX",true,GUIEditor_Window[1])
+GUIEditor_Label[15] = guiCreateLabel(0.5381,0.227,0.4373,0.0526,"Y.YYYYYYYYYYYYYYYYYYY",true,GUIEditor_Window[1])
+GUIEditor_Label[16] = guiCreateLabel(0.5381,0.2697,0.4373,0.0526,"Z.ZZZZZZZZZZZZZZZZZZZZZZ",true,GUIEditor_Window[1])
+GUIEditor_Label[17] = guiCreateLabel(0.6634,0.3125,0.0983,0.0493,"Dim",true,GUIEditor_Window[1])
+GUIEditor_Label[18] = guiCreateLabel(0.6216,0.3553,0.0491,0.0526,"Int",true,GUIEditor_Window[1])
+GUIEditor_Label[19] = guiCreateLabel(0.0246,0.2533,0.1253,0.0592,"Location:",true,GUIEditor_Window[1])
+GUIEditor_Label[20] = guiCreateLabel(0.1597,0.2566,0.1499,0.0559,"Unknown",true,GUIEditor_Window[1])
+GUIEditor_Memo[1] = guiCreateMemo(0.0246,0.4901,0.7912,0.4803,"",true,GUIEditor_Window[1])
+GUIEditor_Button[1] = guiCreateButton(0.8354,0.4901,0.1425,0.2237,"Save",true,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(0.8378,0.7336,0.14,0.2368,"Close",true,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 15/01/2013 18:50
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Memo = {}
+GUIEditor_Label = {}
+
+GUIEditor_Window[1] = guiCreateWindow(0.6925,0.3477,0.298,0.3958,"Vehicle Check",true)
+guiWindowSetSizable(GUIEditor_Window[1],false)
+GUIEditor_Label[1] = guiCreateLabel(0.0246,0.102,0.1572,0.0592,"Vehicle ID:",true,GUIEditor_Window[1])
+GUIEditor_Label[2] = guiCreateLabel(0.1916,0.1053,0.2801,0.0559,"Vehicle ID goes here",true,GUIEditor_Window[1])
+GUIEditor_Label[3] = guiCreateLabel(0.5086,0.102,0.1941,0.0526,"Vehicle Model:",true,GUIEditor_Window[1])
+GUIEditor_Label[4] = guiCreateLabel(0.7273,0.102,0.2359,0.0526,"This is the model",true,GUIEditor_Window[1])
+GUIEditor_Label[5] = guiCreateLabel(0.0246,0.1776,0.1941,0.0592,"License Plate:",true,GUIEditor_Window[1])
+GUIEditor_Label[6] = guiCreateLabel(0.2285,0.1776,0.2432,0.0592,"NOPLATESLOL",true,GUIEditor_Window[1])
+GUIEditor_Label[7] = guiCreateLabel(0.0246,0.4145,0.1204,0.0559,"Owner:",true,GUIEditor_Window[1])
+GUIEditor_Label[8] = guiCreateLabel(0.1351,0.4145,0.828,0.0559,"Owner_Name (Account Name)",true,GUIEditor_Window[1])
+GUIEditor_Label[9] = guiCreateLabel(0.5086,0.1809,0.0393,0.0559,"X:",true,GUIEditor_Window[1])
+GUIEditor_Label[10] = guiCreateLabel(0.5086,0.2237,0.0393,0.0559,"Y:",true,GUIEditor_Window[1])
+GUIEditor_Label[11] = guiCreateLabel(0.5086,0.2697,0.0393,0.0526,"Z:",true,GUIEditor_Window[1])
+GUIEditor_Label[12] = guiCreateLabel(0.5086,0.3125,0.1548,0.0559,"Dimension:",true,GUIEditor_Window[1])
+GUIEditor_Label[13] = guiCreateLabel(0.5086,0.3553,0.113,0.0592,"Interior:",true,GUIEditor_Window[1])
+GUIEditor_Label[14] = guiCreateLabel(0.5381,0.1842,0.4373,0.0526,"X.XXXXXXXXXXXXXXXXXXXXXX",true,GUIEditor_Window[1])
+GUIEditor_Label[15] = guiCreateLabel(0.5381,0.227,0.4373,0.0526,"Y.YYYYYYYYYYYYYYYYYYY",true,GUIEditor_Window[1])
+GUIEditor_Label[16] = guiCreateLabel(0.5381,0.2697,0.4373,0.0526,"Z.ZZZZZZZZZZZZZZZZZZZZZZ",true,GUIEditor_Window[1])
+GUIEditor_Label[17] = guiCreateLabel(0.6634,0.3125,0.0983,0.0493,"Dim",true,GUIEditor_Window[1])
+GUIEditor_Label[18] = guiCreateLabel(0.6216,0.3553,0.0491,0.0526,"Int",true,GUIEditor_Window[1])
+GUIEditor_Label[19] = guiCreateLabel(0.0246,0.2533,0.1253,0.0592,"Location:",true,GUIEditor_Window[1])
+GUIEditor_Label[20] = guiCreateLabel(0.1597,0.2566,0.1499,0.0559,"Unknown",true,GUIEditor_Window[1])
+GUIEditor_Memo[1] = guiCreateMemo(0.0246,0.4901,0.7912,0.4803,"",true,GUIEditor_Window[1])
+GUIEditor_Button[1] = guiCreateButton(0.8354,0.4901,0.1425,0.2237,"Save",true,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(0.8378,0.7336,0.14,0.2368,"Close",true,GUIEditor_Window[1])
+GUIEditor_Label[21] = guiCreateLabel(0.0246,0.3191,0.1572,0.0526,"Occupants:",true,GUIEditor_Window[1])
+GUIEditor_Label[22] = guiCreateLabel(0.1818,0.3191,0.1572,0.0526,"Empty",true,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 17/03/2013 00:27
+GUIEditor_Window = {}
+GUIEditor_Grid = {}
+
+GUIEditor_Window[1] = guiCreateWindow(0.2953,0.1563,0.4648,0.625,"Vehicle Inventory",true)
+GUIEditor_Grid[1] = guiCreateGridList(0.0151,0.0521,0.9697,0.9292,true,GUIEditor_Window[1])
+guiGridListSetSelectionMode(GUIEditor_Grid[1],2)
+
+guiGridListAddColumn(GUIEditor_Grid[1],"Name",0.2)
+
+guiGridListAddColumn(GUIEditor_Grid[1],"Value",0.2)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 24/03/2013 11:46
+GUIEditor_Window = {}
+GUIEditor_Label = {}
+
+GUIEditor_Window[1] = guiCreateWindow(0.8555,0.0013,0.1437,0.1419,"Notification!",true)
+GUIEditor_Label[1] = guiCreateLabel(0.0163,0.2202,0.9348,0.3303,"You have X tickets assigned\n to you on the ticket center!",true,GUIEditor_Window[1])
+guiLabelSetHorizontalAlign(GUIEditor_Label[1],"center",false)
+guiSetFont(GUIEditor_Label[1],"default-bold-small")
+GUIEditor_Label[2] = guiCreateLabel(0.0652,0.5688,0.9348,0.3303,"There are X unassigned\ntickets on the ticket center!",true,GUIEditor_Window[1])
+guiSetFont(GUIEditor_Label[2],"default-bold-small")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 03/04/2013 20:11
+GUIEditor_Button = {}
+
+wMonitorEdit = guiCreateWindow(301,298,420,165,"Admin Monitor",false)
+guiWindowSetSizable(wMonitorEdit,false)
+mMonitorContent = guiCreateMemo(9,25,402,113,"",false,wMonitorEdit)
+GUIEditor_Button[1] = guiCreateButton(9,138,201,21,"SAVE",false,wMonitorEdit)
+GUIEditor_Button[2] = guiCreateButton(210,138,201,21,"CANCEL",false,wMonitorEdit)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 03/04/2013 20:27
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Label = {}
+GUIEditor_Edit = {}
+
+GUIEditor_Window[1] = guiCreateWindow(377,351,240,79,"",false)
+guiWindowSetSizable(GUIEditor_Window[1],false)
+GUIEditor_Label[1] = guiCreateLabel(11,22,64,22,"Username:",false,GUIEditor_Window[1])
+guiLabelSetVerticalAlign(GUIEditor_Label[1],"center")
+guiLabelSetHorizontalAlign(GUIEditor_Label[1],"center",false)
+guiSetFont(GUIEditor_Label[1],"default-bold-small")
+GUIEditor_Edit[1] = guiCreateEdit(81,22,150,22,"",false,GUIEditor_Window[1])
+GUIEditor_Button[1] = guiCreateButton(11,50,109,20,"Cancel",false,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(120,50,111,20,"Next",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 04/04/2013 07:28
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Grid = {}
+
+GUIEditor_Window[1] = guiCreateWindow(211,72,635,436,"Admin Monitor v1.0",false)
+guiWindowSetSizable(GUIEditor_Window[1],false)
+GUIEditor_Grid[1] = guiCreateGridList(9,26,617,375,false,GUIEditor_Window[1])
+guiGridListSetSelectionMode(GUIEditor_Grid[1],2)
+GUIEditor_Button[1] = guiCreateButton(10,405,201,22,"REMOVE",false,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(425,405,201,22,"CANCEL",false,GUIEditor_Window[1])
+GUIEditor_Button[3] = guiCreateButton(211,405,214,22,"EDIT",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 10/04/2013 19:24
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 19/04/2013 09:00
+GUIEditor_Button = {}
+GUIEditor_Label = {}
+GUIEditor_Edit = {}
+
+wSplitting = guiCreateWindow(373,332,226,63,"Splitting Item: ",false)
+guiWindowSetMovable(wSplitting,false)
+guiWindowSetSizable(wSplitting,false)
+guiSetProperty(wSplitting,"TitlebarEnabled","false")
+GUIEditor_Label[1] = guiCreateLabel(12,9,54,24,"Amount:",false,wSplitting)
+guiLabelSetVerticalAlign(GUIEditor_Label[1],"center")
+guiSetFont(GUIEditor_Label[1],"default-bold-small")
+GUIEditor_Edit[1] = guiCreateEdit(66,9,146,24,"an integer number",false,wSplitting)
+GUIEditor_Button[1] = guiCreateButton(12,39,100,16,"OK",false,wSplitting)
+GUIEditor_Button[2] = guiCreateButton(112,39,100,16,"CANCEL",false,wSplitting)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 19/04/2013 09:13
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Label = {}
+GUIEditor_Edit = {}
+
+GUIEditor_Window[1] = guiCreateWindow(373,332,226,78,"Splitting Item: ",false)
+guiSetProperty(GUIEditor_Window[1],"TitlebarEnabled","true")
+GUIEditor_Label[1] = guiCreateLabel(12,20,54,24,"Amount:",false,GUIEditor_Window[1])
+guiLabelSetVerticalAlign(GUIEditor_Label[1],"center")
+guiSetFont(GUIEditor_Label[1],"default-bold-small")
+GUIEditor_Edit[1] = guiCreateEdit(66,20,146,24,"an integer number",false,GUIEditor_Window[1])
+GUIEditor_Button[1] = guiCreateButton(12,48,100,21,"OK",false,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(112,48,100,21,"CANCEL",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 21/04/2013 17:32
+
+checkIntWindow = guiCreateWindow(213,192,600,389,"Interior Manager - Interior Admin Note - ",false)
+lIntNameID = guiCreateLabel(12,27,365,17,"Interior Name/ID: ",false,checkIntWindow)
+lOwner = guiCreateLabel(12,44,365,17,"Owner: ",false,checkIntWindow)
+lLastUsed = guiCreateLabel(12,61,163,17,"Last Used: ",false,checkIntWindow)
+lLocked = guiCreateLabel(372,87,163,17,"Locked: ",false,checkIntWindow)
+lSupplies = guiCreateLabel(377,114,163,17,"Supplies: ",false,checkIntWindow)
+lDeleted = guiCreateLabel(372,65,163,17,"Deleted: ",false,checkIntWindow)
+lPrice = guiCreateLabel(377,27,163,17,"Price: ",false,checkIntWindow)
+lType = guiCreateLabel(377,44,163,17,"Type: ",false,checkIntWindow)
+lDisabled = guiCreateLabel(377,146,163,17,"Disabled: ",false,checkIntWindow)
+lHasSafe = guiCreateLabel(377,163,163,17,"Has Safe: ",false,checkIntWindow)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 21/04/2013 17:40
+
+checkIntWindow = guiCreateWindow(165,97,600,515,"Interior Manager - Interior Admin Note - ",false)
+lIntNameID = guiCreateLabel(12,27,365,17,"Interior Name/ID: ",false,checkIntWindow)
+lOwner = guiCreateLabel(12,44,365,17,"Owner: ",false,checkIntWindow)
+lLastUsed = guiCreateLabel(12,112,163,17,"Last Used: ",false,checkIntWindow)
+lLocked = guiCreateLabel(372,61,163,17,"Locked: ",false,checkIntWindow)
+lSupplies = guiCreateLabel(372,95,163,17,"Supplies: ",false,checkIntWindow)
+lDeleted = guiCreateLabel(372,27,163,17,"Deleted: ",false,checkIntWindow)
+lPrice = guiCreateLabel(12,78,163,17,"Price: ",false,checkIntWindow)
+lType = guiCreateLabel(12,61,163,17,"Type: ",false,checkIntWindow)
+lDisabled = guiCreateLabel(372,44,163,17,"Disabled: ",false,checkIntWindow)
+lHasSafe = guiCreateLabel(372,78,163,17,"Has Safe: ",false,checkIntWindow)
+lCreateDate = guiCreateLabel(372,112,163,17,"Created Date: ",false,checkIntWindow)
+lCreateBy = guiCreateLabel(372,129,163,17,"Created By: ",false,checkIntWindow)
+lLocation = guiCreateLabel(12,95,163,17,"Location: ",false,checkIntWindow)
+lAdminNote = guiCreateLabel(12,133,163,17,"Admin Note: ",false,checkIntWindow)
+guiSetFont(lAdminNote,"default-bold-small")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 21/04/2013 17:52
+GUIEditor_Button = {}
+
+checkIntWindow = guiCreateWindow(156,75,600,486,"Interior Manager - Interior Admin Note - ",false)
+lIntNameID = guiCreateLabel(12,27,365,17,"Interior Name/ID: ",false,checkIntWindow)
+lOwner = guiCreateLabel(12,44,365,17,"Owner: ",false,checkIntWindow)
+lLastUsed = guiCreateLabel(12,112,163,17,"Last Used: ",false,checkIntWindow)
+lLocked = guiCreateLabel(372,61,163,17,"Locked: ",false,checkIntWindow)
+lSupplies = guiCreateLabel(372,95,163,17,"Supplies: ",false,checkIntWindow)
+lDeleted = guiCreateLabel(372,27,163,17,"Deleted: ",false,checkIntWindow)
+lPrice = guiCreateLabel(12,78,163,17,"Price: ",false,checkIntWindow)
+lType = guiCreateLabel(12,61,163,17,"Type: ",false,checkIntWindow)
+lDisabled = guiCreateLabel(372,44,163,17,"Disabled: ",false,checkIntWindow)
+lHasSafe = guiCreateLabel(372,78,163,17,"Has Safe: ",false,checkIntWindow)
+lCreateDate = guiCreateLabel(372,112,163,17,"Created Date: ",false,checkIntWindow)
+lCreateBy = guiCreateLabel(372,129,163,17,"Created By: ",false,checkIntWindow)
+lLocation = guiCreateLabel(12,95,163,17,"Location: ",false,checkIntWindow)
+lAdminNote = guiCreateLabel(12,133,163,17,"Admin Note: ",false,checkIntWindow)
+guiSetFont(lAdminNote,"default-bold-small")
+mAdminNote = guiCreateMemo(12,156,576,269,"",false,checkIntWindow)
+GUIEditor_Button[1] = guiCreateButton(74,293,5,5,"",false,checkIntWindow)
+bGotoInt = guiCreateButton(12,430,81,28,"GO TO INT",false,checkIntWindow)
+guiSetFont(bGotoInt,"default-bold-small")
+bDelInt = guiCreateButton(103,430,72,28,"DEL INT",false,checkIntWindow)
+guiSetFont(bDelInt,"default-bold-small")
+bToggleInt = guiCreateButton(185,430,75,28,"TOGGLE INT",false,checkIntWindow)
+guiSetFont(bToggleInt,"default-bold-small")
+bGotoSafe = guiCreateButton(271,430,83,28,"GO TO SAFE",false,checkIntWindow)
+guiSetFont(bGotoSafe,"default-bold-small")
+bSave = guiCreateButton(364,430,74,28,"SAVE",false,checkIntWindow)
+guiSetFont(bSave,"default-bold-small")
+bClose = guiCreateButton(526,430,62,28,"CLOSE",false,checkIntWindow)
+guiSetFont(bClose,"default-bold-small")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 21/04/2013 19:58
+GUIEditor_Window = {}
+GUIEditor_Label = {}
+
+GUIEditor_Window[1] = guiCreateWindow(112,83,799,600,"",false)
+lTotal = guiCreateLabel(460,25,164,17,"Total Interiors: ",false,GUIEditor_Window[1])
+lActive = guiCreateLabel(460,42,164,17,"Active Interiors: ",false,GUIEditor_Window[1])
+lDisableInts = guiCreateLabel(628,25,159,17,"Disabled Interiors: ",false,GUIEditor_Window[1])
+lInactive = guiCreateLabel(628,42,159,17,"Inactive Interiors: ",false,GUIEditor_Window[1])
+GUIEditor_Label[1] = guiCreateLabel(460,59,164,17,"Ints owned by CK-ed's: ",false,GUIEditor_Window[1])
+lDeletedInts = guiCreateLabel(628,59,159,17,"Deleted Interiors: ",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/04/2013 06:29
+GUIEditor_Button = {}
+GUIEditor_Checkbox = {}
+GUIEditor_Image = {}
+
+vehTheftPostWindow = guiCreateWindow(334,207,474,317,"vehTheft - Forum Post",false)
+guiSetAlpha(vehTheftPostWindow,1)
+PostButton = guiCreateButton(90,277,90,31,"",false,vehTheftPostWindow)
+GUIEditor_Checkbox[1] = guiCreateCheckBox(23,14,44,9,"",false,false,PostButton)
+GUIEditor_Button[1] = guiCreateButton(238,278,96,27,"",false,vehTheftPostWindow)
+GUIEditor_Image[1] = guiCreateStaticImage(113,94,102,43,"images/mtalogo.png",false,vehTheftPostWindow)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/04/2013 06:58
+
+vehTheftGUI = guiCreateWindow(461,277,486,314,"vehTheft - Forum Poster",false)
+EngineCheck = guiCreateCheckBox(41,115,16,20,"",false,false,vehTheftGUI)
+KeyCheck = guiCreateCheckBox(41,100,15,14,"",false,false,vehTheftGUI)
+KeyLabel = guiCreateLabel(64,99,67,18,"Spawn Key",false,vehTheftGUI)
+guiSetProperty(KeyLabel,"Text","Spawn Key")
+EngineLabel = guiCreateLabel(64,118,67,18,"Start Engine",false,vehTheftGUI)
+guiSetProperty(EngineLabel,"Text","Start Engine")
+vehTheftLabel[1] = guiCreateLabel(32,40,68,20,"Vehicle ID:",false,vehTheftGUI)
+guiSetProperty(vehTheftLabel[1],"Text","Vehicle ID:")
+vehIDLabel = guiCreateLabel(96,39,64,19,"",false,vehTheftGUI)
+pNameLabel = guiCreateLabel(32,62,73,17,"Player Name:",false,vehTheftGUI)
+guiSetProperty(pNameLabel,"Text","Player Name:")
+pName = guiCreateLabel(108,60,186,21,"",false,vehTheftGUI)
+noteLabel = guiCreateLabel(28,155,81,21,"Notes:",false,vehTheftGUI)
+guiSetProperty(noteLabel,"Text","Notes:")
+noteEdit = guiCreateEdit(73,181,356,86,"",false,vehTheftGUI)
+fPost = guiCreateButton(59,274,110,28,"Post",false,vehTheftGUI)
+guiSetProperty(fPost,"Text","Post")
+wCancel = guiCreateButton(320,274,107,29,"Cancel",false,vehTheftGUI)
+guiSetProperty(wCancel,"Text","Cancel")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/04/2013 07:02
+
+vehTheftGUI = guiCreateWindow(688,226,486,314,"vehTheft - Forum Poster",false)
+EngineCheck = guiCreateCheckBox(41,115,16,20,"",false,false,vehTheftGUI)
+KeyCheck = guiCreateCheckBox(41,100,15,14,"",false,false,vehTheftGUI)
+KeyLabel = guiCreateLabel(64,99,67,18,"Spawn Key",false,vehTheftGUI)
+guiSetProperty(KeyLabel,"Text","Spawn Key")
+EngineLabel = guiCreateLabel(64,118,67,18,"Start Engine",false,vehTheftGUI)
+guiSetProperty(EngineLabel,"Text","Start Engine")
+vehTheftLabel[1] = guiCreateLabel(32,40,68,20,"Vehicle ID:",false,vehTheftGUI)
+guiSetProperty(vehTheftLabel[1],"Text","Vehicle ID:")
+vehIDLabel = guiCreateLabel(96,39,64,19,"",false,vehTheftGUI)
+pNameLabel = guiCreateLabel(32,62,73,17,"Player Name:",false,vehTheftGUI)
+guiSetProperty(pNameLabel,"Text","Player Name:")
+pName = guiCreateLabel(108,60,186,21,"",false,vehTheftGUI)
+noteLabel = guiCreateLabel(28,155,81,21,"Notes:",false,vehTheftGUI)
+guiSetProperty(noteLabel,"Text","Notes:")
+noteEdit = guiCreateEdit(73,181,356,86,"",false,vehTheftGUI)
+fPost = guiCreateButton(59,274,110,28,"Post",false,vehTheftGUI)
+guiSetProperty(fPost,"Text","Post")
+wCancel = guiCreateButton(320,274,107,29,"Cancel",false,vehTheftGUI)
+guiSetProperty(wCancel,"Text","Cancel")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/04/2013 12:49
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/04/2013 12:50
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Memo = {}
+GUIEditor_Checkbox = {}
+GUIEditor_Label = {}
+
+GUIEditor_Window[1] = guiCreateWindow(551,260,486,314,"vehTheft - Forum Poster",false)
+GUIEditor_Checkbox[1] = guiCreateCheckBox(41,115,16,20,"",false,false,GUIEditor_Window[1])
+GUIEditor_Checkbox[2] = guiCreateCheckBox(41,100,15,14,"",false,false,GUIEditor_Window[1])
+GUIEditor_Label[1] = guiCreateLabel(64,99,67,18,"Spawn Key",false,GUIEditor_Window[1])
+GUIEditor_Label[2] = guiCreateLabel(64,118,67,18,"Start Engine",false,GUIEditor_Window[1])
+GUIEditor_Label[3] = guiCreateLabel(32,40,68,20,"Vehicle ID:",false,GUIEditor_Window[1])
+GUIEditor_Label[4] = guiCreateLabel(96,39,64,19,"1",false,GUIEditor_Window[1])
+GUIEditor_Label[5] = guiCreateLabel(32,62,73,17,"Player Name:",false,GUIEditor_Window[1])
+GUIEditor_Label[6] = guiCreateLabel(110,63,186,21,"Austin Hughes",false,GUIEditor_Window[1])
+GUIEditor_Label[7] = guiCreateLabel(28,155,81,21,"Notes:",false,GUIEditor_Window[1])
+GUIEditor_Memo[1] = guiCreateMemo(73,181,356,86,"",false,GUIEditor_Window[1])
+GUIEditor_Button[1] = guiCreateButton(59,274,110,28,"Post",false,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(320,274,107,29,"Cancel",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/04/2013 13:31
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Memo = {}
+GUIEditor_Checkbox = {}
+GUIEditor_Label = {}
+
+GUIEditor_Window[1] = guiCreateWindow(427,171,486,314,"vehTheft - Forum Poster",false)
+GUIEditor_Checkbox[1] = guiCreateCheckBox(41,115,16,20,"",false,false,GUIEditor_Window[1])
+GUIEditor_Checkbox[2] = guiCreateCheckBox(41,100,15,14,"",false,false,GUIEditor_Window[1])
+GUIEditor_Label[1] = guiCreateLabel(64,99,67,18,"Spawn Key",false,GUIEditor_Window[1])
+GUIEditor_Label[2] = guiCreateLabel(64,118,67,18,"Start Engine",false,GUIEditor_Window[1])
+GUIEditor_Label[3] = guiCreateLabel(32,40,68,20,"Vehicle ID:",false,GUIEditor_Window[1])
+GUIEditor_Label[4] = guiCreateLabel(96,39,64,19,"1",false,GUIEditor_Window[1])
+GUIEditor_Label[5] = guiCreateLabel(32,62,73,17,"Player Name:",false,GUIEditor_Window[1])
+GUIEditor_Label[6] = guiCreateLabel(108,60,186,21,"Austin Hughes",false,GUIEditor_Window[1])
+GUIEditor_Label[7] = guiCreateLabel(28,155,81,21,"Notes:",false,GUIEditor_Window[1])
+GUIEditor_Memo[1] = guiCreateMemo(73,181,356,86,"",false,GUIEditor_Window[1])
+GUIEditor_Button[1] = guiCreateButton(59,274,110,28,"Post",false,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(320,274,107,29,"Cancel",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/04/2013 13:32
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Memo = {}
+GUIEditor_Checkbox = {}
+GUIEditor_Label = {}
+
+GUIEditor_Window[1] = guiCreateWindow(427,171,486,314,"vehTheft - Forum Poster",false)
+GUIEditor_Checkbox[1] = guiCreateCheckBox(41,115,16,20,"",false,false,GUIEditor_Window[1])
+GUIEditor_Checkbox[2] = guiCreateCheckBox(41,100,15,14,"",false,false,GUIEditor_Window[1])
+GUIEditor_Label[1] = guiCreateLabel(64,99,67,18,"Spawn Key",false,GUIEditor_Window[1])
+GUIEditor_Label[2] = guiCreateLabel(64,118,67,18,"Start Engine",false,GUIEditor_Window[1])
+GUIEditor_Label[3] = guiCreateLabel(32,40,68,20,"Vehicle ID:",false,GUIEditor_Window[1])
+GUIEditor_Label[4] = guiCreateLabel(96,39,64,19,"1",false,GUIEditor_Window[1])
+GUIEditor_Label[5] = guiCreateLabel(32,62,73,17,"Player Name:",false,GUIEditor_Window[1])
+GUIEditor_Label[6] = guiCreateLabel(108,60,186,21,"Austin Hughes",false,GUIEditor_Window[1])
+GUIEditor_Label[7] = guiCreateLabel(28,155,81,21,"Notes:",false,GUIEditor_Window[1])
+GUIEditor_Memo[1] = guiCreateMemo(73,181,356,86,"",false,GUIEditor_Window[1])
+GUIEditor_Button[1] = guiCreateButton(59,274,110,28,"Post",false,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(320,274,107,29,"Cancel",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 29/04/2013 16:52
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Memo = {}
+GUIEditor_Checkbox = {}
+GUIEditor_Label = {}
+
+vehTheftGUI = guiCreateWindow(width-688,226,486,314,"vehTheft - Forum Poster",false)
+EngineCheck = guiCreateCheckBox(41,115,16,20,"",false,false,vehTheftGUI)
+KeyCheck = guiCreateCheckBox(41,100,15,14,"",false,false,vehTheftGUI)
+KeyLabel = guiCreateLabel(64,99,67,18,"Spawn Key",false,vehTheftGUI)
+guiSetProperty(KeyLabel,"Text","Spawn Key")
+EngineLabel = guiCreateLabel(64,118,67,18,"Start Engine",false,vehTheftGUI)
+guiSetProperty(EngineLabel,"Text","Start Engine")
+vehTheftLabel = guiCreateLabel(32,40,68,20,"Vehicle ID:",false,vehTheftGUI)
+guiSetProperty(vehTheftLabel,"Text","Vehicle ID:")
+vehIDLabel = guiCreateLabel(96,39,64,19,"",false,vehTheftGUI)
+pNameLabel = guiCreateLabel(32,62,73,17,"Player Name:",false,vehTheftGUI)
+guiSetProperty(pNameLabel,"Text","Player Name:")
+pName = guiCreateLabel(108,60,186,21,"",false,vehTheftGUI)
+noteLabel = guiCreateLabel(28,155,81,21,"Notes:",false,vehTheftGUI)
+guiSetProperty(noteLabel,"Text","Notes:")
+noteEdit = guiCreateMemo(73,181,356,86,"",false,vehTheftGUI)
+guiMemoSetReadOnly(noteEdit, false)
+fPost = guiCreateButton(59,274,110,28,"Post",false,vehTheftGUI)
+guiSetProperty(fPost,"Text","Post")
+wCancel = guiCreateButton(320,274,107,29,"Cancel",false,vehTheftGUI)
+guiSetProperty(wCancel,"Text","Cancel")
+
+-- Created: 29/04/2013 14:19
+GUIEditor_Button = {}
+GUIEditor_Memo = {}
+GUIEditor_Checkbox = {}
+GUIEditor_Label = {}
+
+vehTheftGUI = guiCreateWindow(451,227,486,314,"vehTheft - Forum Poster",false)
+GUIEditor_Checkbox[1] = guiCreateCheckBox(41,115,16,20,"",false,false,vehTheftGUI)
+GUIEditor_Checkbox[2] = guiCreateCheckBox(41,100,15,14,"",false,false,vehTheftGUI)
+GUIEditor_Label[1] = guiCreateLabel(64,99,67,18,"Spawn Key",false,vehTheftGUI)
+GUIEditor_Label[2] = guiCreateLabel(64,118,67,18,"Start Engine",false,vehTheftGUI)
+GUIEditor_Label[3] = guiCreateLabel(32,40,68,20,"Vehicle ID:",false,vehTheftGUI)
+NEWvalueVEHid = guiCreateLabel(96,40,64,19,"1",false,vehTheftGUI)
+GUIEditor_Label[4] = guiCreateLabel(32,62,73,17,"Player Name:",false,vehTheftGUI)
+NEWvaluePLAYERname = guiCreateLabel(108,63,186,21,"Austin Hughes",false,vehTheftGUI)
+GUIEditor_Label[5] = guiCreateLabel(28,155,81,21,"Notes:",false,vehTheftGUI)
+GUIEditor_Memo[1] = guiCreateMemo(73,181,356,86,"Use <br> for new lines. \nExample: Line 1<br>Line2",false,vehTheftGUI)
+guiSetProperty(GUIEditor_Memo[1],"Text","Use <br> for new lines. Example: Line 1<br>Line2")
+GUIEditor_Button[1] = guiCreateButton(59,274,110,28,"Post",false,vehTheftGUI)
+GUIEditor_Button[2] = guiCreateButton(320,274,107,29,"Cancel",false,vehTheftGUI)
+SellVehCheck = guiCreateCheckBox(156,101,15,14,"",false,false,vehTheftGUI)
+GUIEditor_Label[6] = guiCreateLabel(246,-175,5,5,"",false,vehTheftGUI)
+SellVehLabel = guiCreateLabel(178,100,74,17,"Sell Vehicle",false,vehTheftGUI)
+guiSetProperty(SellVehLabel,"Text","Sell Vehicle")
+ChangeLockCheck = guiCreateCheckBox(156,119,16,15,"",false,false,vehTheftGUI)
+ChangeLockLabel = guiCreateLabel(178,119,98,17,"Change Locks",false,vehTheftGUI)
+guiSetProperty(ChangeLockLabel,"Text","Change Locks")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 03/05/2013 16:35
+GUIEditor_Window = {}
+GUIEditor_Edit = {}
+
+GUIEditor_Window[1] = guiCreateWindow(0.1084,0.1094,0.7803,0.7813,"",true)
+GUIEditor_Edit[1] = guiCreateEdit(0.8035,0.1433,0.184,0.0367,"Search...",true,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 03/05/2013 18:10
+GUIEditor_Button = {}
+GUIEditor_Label = {}
+GUIEditor_Edit = {}
+
+wInteriorSearch = guiCreateWindow(325,349,355,88,"Interior Search",false)
+GUIEditor_Label[1] = guiCreateLabel(10,22,341,16,"Input any related information about an interior (ID, Name, Owner, Price, etc..) :",false,wInteriorSearch)
+guiSetFont(GUIEditor_Label[1],"default-small")
+GUIEditor_Edit[1] = guiCreateEdit(10,38,260,35,"Search...",false,wInteriorSearch)
+GUIEditor_Button[1] = guiCreateButton(274,37,72,36,"GO",false,wInteriorSearch)
+guiSetFont(GUIEditor_Button[1],"default-bold-small")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 03/05/2013 18:34
+GUIEditor_Label = {}
+
+wInteriorSearch = guiCreateWindow(390,302,352,104,"Interior Search",false)
+GUIEditor_Label[1] = guiCreateLabel(10,22,341,16,"Input any related information about an interior (ID, Name, Owner, Price,...) :",false,wInteriorSearch)
+guiSetFont(GUIEditor_Label[1],"default-small")
+eSearch = guiCreateEdit(10,38,331,31,"Search...",false,wInteriorSearch)
+bCancel = guiCreateButton(10,73,169,22,"CANCEL",false,wInteriorSearch)
+guiSetFont(bCancel,"default-bold-small")
+bGo = guiCreateButton(179,73,162,22,"GO",false,wInteriorSearch)
+guiSetFont(bGo,"default-bold-small")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 09/05/2013 12:10
+
+wBizNote = guiCreateWindow(285,366,506,103,"Edit Business Greeting Message - ",false)
+eBizNote = guiCreateEdit(9,22,488,40,"",false,wBizNote)
+bRemove = guiCreateButton(9,68,163,28,"Remove",false,wBizNote)
+bSave = guiCreateButton(172,68,163,28,"Save",false,wBizNote)
+bCancel = guiCreateButton(335,68,163,28,"Cancel",false,wBizNote) 
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 09/05/2013 15:57
+
+local screenwidth, screenheight = guiGetScreenSize()
+local Width = 756
+local Height = 432
+local X = (screenwidth - Width)/2
+local Y = (screenheight - Height)/2
+
+wCustomShop = guiCreateWindow(X,Y,Width,Height,"Custom Shop - ",false)
+shopTabPanel = guiCreateTabPanel(9,26,738,396,false,wCustomShop)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 11/05/2013 04:11
+GUIEditor_Edit = {}
+
+wAddingItemsToShop = guiCreateWindow(484,306,440,165,"Putting product () on sale",false)
+iProductImage = guiCreateButton(9,27,128,128,"",false,wAddingItemsToShop)
+lProductName = guiCreateLabel(147,27,280,18,"Product Name: ",false,wAddingItemsToShop)
+lAmount = guiCreateLabel(147,45,280,18,"Amount: ",false,wAddingItemsToShop)
+lPrice = guiCreateLabel(147,63,42,18,"Price: $",false,wAddingItemsToShop)
+GUIEditor_Edit[1] = guiCreateEdit(189,63,238,18,"",false,wAddingItemsToShop)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 11/05/2013 04:23
+GUIEditor_Memo = {}
+
+wAddingItemsToShop = guiCreateWindow(510,148,438,199,"Putting product () on sale",false)
+iProductImage = guiCreateButton(9,27,128,128,"",false,wAddingItemsToShop)
+lProductName = guiCreateLabel(147,27,280,18,"Product Name: ",false,wAddingItemsToShop)
+lAmount = guiCreateLabel(147,45,280,18,"Amount: ",false,wAddingItemsToShop)
+lPrice = guiCreateLabel(147,63,42,18,"Price: $",false,wAddingItemsToShop)
+ePrice = guiCreateEdit(189,63,238,18,"",false,wAddingItemsToShop)
+lDesc = guiCreateLabel(147,81,66,18,"Description: ",false,wAddingItemsToShop)
+GUIEditor_Memo[1] = guiCreateMemo(147,99,280,56,"",false,wAddingItemsToShop)
+bCancel = guiCreateButton(217,161,210,27,"Cancel",false,wAddingItemsToShop)
+bOk = guiCreateButton(9,161,208,27,"OK, put this on sale please!",false,wAddingItemsToShop)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 11/05/2013 12:08
+GUIEditor_Button = {}
+GUIEditor_Memo = {}
+GUIEditor_Label = {}
+GUIEditor_Edit = {}
+
+gmGUI = guiCreateWindow(461,253,508,272,"GameMaster School Report",false)
+guiWindowSetSizable(gmGUI,false)
+gmLabel1 = guiCreateLabel(20,27,495,17,"Player(s) taught: (Seperate names using ;. Example: Raz Washer;Woody Dingle)",false,gmGUI)
+guiSetProperty(gmLabel1,"Text","Player(s) taught: (Seperate names using ;. Example: Raz Washer;Woody Dingle)")
+GUIEditor_Edit[1] = guiCreateEdit(19,47,471,24,"None.",false,gmGUI)
+GUIEditor_Label[1] = guiCreateLabel(20,78,485,22,"Notes: Please state how the schooling went & how the player reacted to the school)",false,gmGUI)
+guiSetProperty(GUIEditor_Label[1],"Text","Notes: Please state how the schooling went & how the player reacted to the school)")
+GUIEditor_Memo[1] = guiCreateMemo(19,102,472,130,"None.",false,gmGUI)
+GUIEditor_Button[1] = guiCreateButton(43,235,113,28,"Submit",false,gmGUI)
+guiSetProperty(GUIEditor_Button[1],"Text","Submit")
+GUIEditor_Button[2] = guiCreateButton(344,235,113,28,"Cancel",false,gmGUI)
+guiSetProperty(GUIEditor_Button[2],"Text","Cancel")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 11/05/2013 12:14
+
+gmGUI = guiCreateWindow(461,253,508,272,"GameMaster School Report",false)
+guiWindowSetSizable(gmGUI,false)
+gmLabel1 = guiCreateLabel(20,27,495,17,"Player(s) taught: (Seperate names using ;. Example: Raz Washer;Woody Dingle)",false,gmGUI)
+guiSetProperty(gmLabel1,"Text","Player(s) taught: (Seperate names using ;. Example: Raz Washer;Woody Dingle)")
+gmPlayers = guiCreateEdit(19,47,471,24,"None.",false,gmGUI)
+gmLabel2 = guiCreateLabel(20,78,485,22,"Notes: Please state how the schooling went & how the player reacted to the school)",false,gmGUI)
+guiSetProperty(gmLabel2,"Text","Notes: Please state how the schooling went & how the player reacted to the school)")
+gmNotes = guiCreateMemo(19,102,472,130,"None.",false,gmGUI)
+wSubmit = guiCreateButton(43,235,113,28,"Submit",false,gmGUI)
+guiSetProperty(wSubmit,"Text","Submit")
+wCancel = guiCreateButton(344,235,113,28,"Cancel",false,gmGUI)
+guiSetProperty(wCancel,"Text","Cancel")
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 12/05/2013 14:18
+
+w = guiCreateWindow(145,218,737,372,"",false)
+lTitle = guiCreateLabel(11,19,716,56,"Business Management - Maxime Business",false,w)
+guiLabelSetVerticalAlign(lTitle,"center")
+guiLabelSetHorizontalAlign(lTitle,"center",false)
+lCapacity = guiCreateLabel(11,75,716,20,"- Capacity: -- (Max number of items the shop can hold, you have to pay $5 more per hour more for every 10 items)",false,w)
+lIncome = guiCreateLabel(11,95,716,20,"- Capacity: -- (Max number of items the shop can hold, you have to pay $5 more per hour more for every 10 items)",false,w)
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 12/05/2013 14:30
+GUIEditor_Window = {}
+GUIEditor_Memo = {}
+GUIEditor_Label = {}
+
+GUIEditor_Window[1] = guiCreateWindow(110,214,737,372,"",false)
+GUIEditor_Label[1] = guiCreateLabel(11,19,716,56,"Business Management - Maxime Business",false,GUIEditor_Window[1])
+guiLabelSetVerticalAlign(GUIEditor_Label[1],"center")
+guiLabelSetHorizontalAlign(GUIEditor_Label[1],"center",false)
+GUIEditor_Label[2] = guiCreateLabel(11,75,716,20,"- Capacity: -- (Max number of items the shop can hold, you have to pay $5 more per hour more for every 10 items)",false,GUIEditor_Window[1])
+GUIEditor_Label[3] = guiCreateLabel(11,95,716,20,"- Income: ",false,GUIEditor_Window[1])
+GUIEditor_Label[4] = guiCreateLabel(11,115,716,20,"- Staff Payment: ",false,GUIEditor_Window[1])
+GUIEditor_Label[5] = guiCreateLabel(11,135,483,20,"- Profit: ",false,GUIEditor_Window[1])
+GUIEditor_Label[6] = guiCreateLabel(11,155,57,19,"- Sales: ",false,GUIEditor_Window[1])
+GUIEditor_Memo[1] = guiCreateMemo(11,179,498,184,"",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---
+
+-- Created: 22/05/2013 13:04
+
+wRSHaulLoadup = guiCreateWindow(312,344,204,149,"RS Haul Delivery Station",false)
+guiWindowSetSizable(wRSHaulLoadup,false)
+lNumberOfCrates = guiCreateLabel(13,25,176,19,"Number of Supply Crates: 0",false,wRSHaulLoadup)
+guiSetFont(lNumberOfCrates,"default-bold-small")
+lCost = guiCreateLabel(13,68,176,19,"Cost: $0",false,wRSHaulLoadup)
+guiSetFont(lCost,"default-bold-small")
+scrollbar = guiCreateScrollBar(13,44,176,20,true,false,wRSHaulLoadup)
+lMoney = guiCreateLabel(13,87,176,19,"Your money: $0",false,wRSHaulLoadup)
+guiSetFont(lMoney,"default-bold-small")
+bBuyLoad = guiCreateButton(9,111,94,28,"Buy & Load up",false,wRSHaulLoadup)
+bCancel = guiCreateButton(107,111,88,28,"Cancel",false,wRSHaulLoadup)
+
+
+
+
+--- --- --- --- ---

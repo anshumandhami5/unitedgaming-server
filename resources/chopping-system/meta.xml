@@ -1,0 +1,4 @@
+<meta>
+    <info author="Chuevo" type="script" description="Vehicle Chopping Sysyem"/>
+	<script src="s_chopcar.lua" type="server"/>
+</meta>

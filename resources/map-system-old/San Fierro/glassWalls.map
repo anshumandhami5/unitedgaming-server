@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (cr_door_03) (1)" interior="0" alpha="255" doublesided="false" model="2946" scale="1" dimension="0" posX="-686.5" posY="943.70001" posZ="12.6" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (cr_door_03) (2)" interior="0" alpha="255" doublesided="false" model="2946" scale="1" dimension="0" posX="-689.70001" posY="943.70001" posZ="12.6" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (CJ_SPORTS_WALL) (1)" interior="0" alpha="255" doublesided="true" model="2395" scale="1" dimension="0" posX="-692.40002" posY="931.70001" posZ="12.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_SPORTS_WALL) (2)" interior="0" alpha="255" doublesided="true" model="2395" scale="1" dimension="0" posX="-686.70001" posY="931.70001" posZ="12.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sfse_hub_grgdoor02) (1)" interior="0" alpha="255" doublesided="true" model="11327" scale="1" dimension="0" posX="-693.5" posY="965.90002" posZ="13.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (1)" interior="0" alpha="255" doublesided="true" model="16501" scale="1" dimension="0" posX="-670.29999" posY="967.09998" posZ="13.3" rotX="0" rotY="0" rotZ="0"></object>
+</map>
